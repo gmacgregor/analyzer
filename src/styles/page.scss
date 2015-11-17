@@ -1,0 +1,46 @@
+
+@import 'bourbon';
+@import 'breakpoints';
+
+.page-header {}
+
+.page-title {
+  margin: 1rem 0 4rem 0;
+  text-align: center;
+  font-size: rem(36);
+  font-weight: 700;
+}
+  @media #{$medium-up} {
+    .page-title {
+      font-size: rem(80);
+    }
+  }
+
+.page-brief {
+  text-align: center;
+  line-height: 1.5;
+  font-size: rem(18);
+}
+  @media #{$medium-up} {
+    .page-brief {
+      font-size: rem(22);
+    }
+  }
+
+.page-brief__instruction {
+  display: block;
+  font-size: rem(14);
+  font-style: normal;
+  text-align: center;
+  color: #3DC9B5;
+}
+  @media #{$medium-up} {
+    .page-brief__instruction {
+      font-size: rem(19);
+    }
+  }
+
+.page-brief__selection {
+  padding: 0 rem(5);
+  background-color: #379285;
+}

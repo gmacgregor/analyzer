@@ -1,0 +1,27 @@
+
+@import 'bourbon';
+@import 'breakpoints';
+@import 'color';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: rem(10);
+  max-width: rem(990);
+  background-color: $c-background;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;  
+  color: $c-textprimary;
+}
+
+.no-select {
+  user-select: none;
+}

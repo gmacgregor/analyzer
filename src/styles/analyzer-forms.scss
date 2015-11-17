@@ -1,0 +1,74 @@
+
+@import 'bourbon';
+@import 'neat';
+@import 'breakpoints';
+@import 'color';
+
+.analyzer-form {
+  width: 100%;
+  margin: rem(30) auto rem(100) auto;
+  text-align: center;
+}
+@media #{$medium-up} {
+  .analyzer-form {
+    width: 50%;
+  }
+}
+@media #{$large-up} {
+  .analyzer-form {
+    width: auto;
+    margin: rem(75) auto rem(150) auto;
+  }
+}
+
+.analyzer-form__input-email {
+  display: block;
+  width: 100%;
+  padding: rem(15);
+  color: #A4ADBB;
+  background-color: #303542;
+  border: 2px solid #565C6D;
+  font-size: rem(18);
+}
+  @media #{$large-up} {
+    .analyzer-form__input-email {
+      display: inline;
+      width: auto;
+      width: rem(278);
+      height: rem(64);
+    }
+  }
+
+.analyzer-form__input-submit {
+  display: block;
+  width: 100%;
+  margin-top: rem(10);
+  padding: rem(20) rem(30);
+  background-color: $c-green;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAUCAYAAABxnDbHAAAAAXNSR0IArs4c6QAAAc1JREFUSA21lLtOAmEUhNFYGGNhZSI9sbC2IyEQQpBoaCAUNNYWNCSEUNBQ0dDY6QNY2/gONtbamFhamFh4pXCdj5yfrOvusuEyyeScPf+ZGS67m0oJnufVxbG4SuBfJ4/AM6sF9a8rSsW3MM2zkHPVdfFAfLLZsgp++OJPjsc3dbhWsyXuiXduuGDFBz988Z/AH8rgVtwVt8UbcRGgxwc/fKcIhnLwKO6LG+KFOA/QoccHvz8IC2XhRczaH99T/8MwAdjrmS6rHp9/iApl8UtsmEFT/TfDGHDetP2GevShiAtFwCfvmFFO/bMYBuY52+uoj/1lZoW6gJoZpjX4c1PYddrOa04QV5OE8mytiYfijrgpXomAyjVzztmbPIuqkZgVOrJvkJfDu3gvZmxWsZrR7EF8E/M2G6mPRFzo0Ax4PRLowB3pzPkw/juUPfe6GzpBsEaFDiywKMFHUKTrsXhpNXjMftH0g+Ah12GhfROUdP4ZJkowQ1cyn35wPxjatcWyFucNdBnoy+bXdUOqP7RtCxXNIx9svzhBj4+74dpu34W2LPBEB7PePE6btOJ3bP4tRISe2qCqftmBZAB8q5YzySOYn5Q7cpXA/4jgXybvPeCmC43MAAAAAElFTkSuQmCC);
+  background-position: 33% 50%;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+  @media #{$medium-up} {
+    .analyzer-form__input-submit {
+      font-size: rem(22);
+    }
+  }
+  @media #{$large-up} {
+    .analyzer-form__input-submit {
+      display: inline;
+      position: relative;
+      top: rem(1);
+      width: rem(195);
+      height: rem(65);
+      margin-top: 0;
+      margin-left: rem(-2); 
+      padding: 0 rem(30) 0 0;    
+      background-position: 20% 50%;
+      text-align: right;
+    }
+  }
