@@ -1,14 +1,13 @@
 
-# Analyzer App
+## Analyzer App
 
-## See it in action
+### See it in action
 
-In the current directory:
-
+1. Clone this repo!
 1. ```python -m SimpleHTTPServer```
 2. head to [http://localhost:8000](http://localhost:8000)
 
-### Get a development environment up and running:
+### Get a development environment up and running
 
 1. ```npm install```
 2. ```npm start```
