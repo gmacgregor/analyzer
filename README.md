@@ -3,9 +3,10 @@
 
 ### See it in action
 
-1. Clone this repo!
-1. ```python -m SimpleHTTPServer```
-2. head to [http://localhost:8000](http://localhost:8000)
+1. Install [node.js](https://nodejs.org/en/download/)
+2. Clone this repo!
+3. ```python -m SimpleHTTPServer```
+4. head to [http://localhost:8000](http://localhost:8000)
 
 ### Get a development environment up and running
 
